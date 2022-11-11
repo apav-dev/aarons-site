@@ -31,8 +31,6 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
   return document.slug;
 };
 
-// src/templates/blog-post.tsx
-
 const BlogPost: Template<TemplateRenderProps> = ({
   document,
 }: TemplateProps) => {
